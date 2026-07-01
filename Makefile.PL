@@ -23,13 +23,13 @@ WriteMakefile(
                           'ExtUtils::MakeMaker'     => 6.64,
                           'File::ShareDir::Install' => 0,
                         },
-  TEST_REQUIRES        => { 'Test::More'  => 0.82, },
-  PREREQ_PM            => {
-                            'Moo'              => 0,
-                            'namespace::clean' => 0,
-                            'File::Share'      => 0,
-                            'Map::Tube'        => 4.09,
-                          },
+  TEST_REQUIRES      => { 'Test::More'  => 0.82, },
+  PREREQ_PM          => {
+                          'Moo'              => 0,
+                          'namespace::clean' => 0,
+                          'File::Share'      => 0,
+                          'Map::Tube'        => 4.09,
+                        },
   dist               => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
   clean              => { FILES    => $mod_distname . '-*', },
   META_MERGE         => {
@@ -66,7 +66,7 @@ WriteMakefile(
                                                             },
                                               bugtracker => {
                                                                web => 'https://github.com/gwselke/' . $mod_distname . '/issues'
-                                                             },
+                                                            },
                                             },
                         },
 );

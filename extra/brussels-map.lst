@@ -1,0 +1,567 @@
+;Bruxelles Métro et Tram;Brusselse Metro en Tram:BX
+# Metro
+:1:#B537BC
+Stockel;Stokkel
+Crainhem;Kraainem
+Alma
+Vandervelde
+Roodebeek
+Tomberg
+Gribaumont
+Joséphine-Charlotte
+Montgomery
+Merode
+Schuman
+Maelbeek;Maalbeek
+Arts-Loi;Kunst-Wet
+Parc;Park
+Gare Centrale;Centraal Station
+De Brouckère
+Sainte-Catherine;Sint-Katelijne
+Comte de Flandre;Graaf van Vlaanderen
+Étangs Noirs;Zwarte Vijvers
+Beekkant
+Gare de l'Ouest;Weststation
+# Metro
+:2:#ED6C23
+Elisabeth
+Ribaucourt
+Yser;IJzer
+Rogier
+Botanique;Kruidtuin
+Madou
+Arts-Loi;Kunst-Wet
+Trône;Troon
+Porte de Namur;Naamsepoort
+Louise;Louiza
+Hôtel des Monnaies;Munthof
+Porte de Hal;Hallepoort
+Gare du Midi;Zuidstation
+Clemenceau
+Delacroix
+Gare de l'Ouest;Weststation
+Beekkant
+Osseghem;Ossegem
+Simonis
+# Tram
+:4:#EA4F80
+Gare du Nord;Noordstation
+Rogier
+De Brouckère
+Bourse;Beurs
+Anneessens
+Lemonnier
+Gare du Midi;Zuidstation
+Porte de Hal;Hallepoort
+Parvis de Saint-Gilles;Sint-Gillesvoorplein
+Horta
+Albert
+Berkendael;Berkendaal
+Vanderkindere
+Messidor
+Boetendael
+Héros;Helden
+Globe
+Wagon;Wagen
+Égide van Ophem
+Carrefour Stalle;Kruispunt Stalle
+Stalle Parking
+# Metro
+:5:#F6A90B
+Erasme;Erasmus
+Eddy Merckx
+CERIA;COOVI
+La Roue;Het Rad
+Bizet
+Veeweyde;Veeweide
+Saint-Guidon;Sint-Guido
+Aumale
+Jacques Brel
+Gare de l'Ouest;Weststation
+Beekkant
+Étangs Noirs;Zwarte Vijvers
+Comte de Flandre;Graaf van Vlaanderen
+Sainte-Catherine;Sint-Katelijne
+De Brouckère
+Gare Centrale;Centraal Station
+Parc;Park
+Arts-Loi;Kunst-Wet
+Maelbeek;Maalbeek
+Schuman
+Merode
+Boileau
+Thieffry
+Pétillon
+Hankar
+Delta
+Beaulieu
+Demey
+Herrmann-Debroux
+# Metro
+:6:#0066A3
+Elisabeth
+Ribaucourt
+Yser;IJzer
+Rogier
+Botanique;Kruidtuin
+Madou
+Arts-Loi;Kunst-Wet
+Trône;Troon
+Porte de Namur;Naamsepoort
+Louise;Louiza
+Hôtel des Monnaies;Munthof
+Porte de Hal;Hallepoort
+Gare du Midi;Zuidstation
+Clemenceau
+Delacroix
+Gare de l'Ouest;Weststation
+Beekkant
+Osseghem;Ossegem
+Simonis
+Belgica
+Pannenhuis
+Bockstael
+Stuyvenbergh
+Houba-Brugmann
+Heysel;Heizel
+Roi Baudouin;Koning Boudewijn
+# Tram
+:7:#EFE048
+Heysel;Heizel
+Saint-Lambert;Sint-Lambertus
+De Wand
+Araucaria
+Buissonnets;Braambosjes
+Heembeek
+Docks Bruxsel
+Princesse Élisabeth;Prinses Elisabeth
+Demolder
+Hôpital Paul Brien;Paul Brien-Ziekenhuis
+Louis Bertrand
+Héliotropes;Heliotropen
+Chazal
+Léopold III;Leopold III
+Meiser
+Diamant
+Georges Henri
+Montgomery
+Boileau
+Pétillon
+Arsenal;Arsenaal
+VUB
+Etterbeek Gare;Etterbeek Station
+Roffiaen
+Buyl
+Cambre-Étoile;Ter Kameren-Ster
+Legrand
+Bascule
+Longchamp
+Gossart
+Cavell
+Churchill
+Vanderkindere
+# Tram
+:8:#169FDB
+Poelaert
+Louise;Louiza
+Stéphanie;Stefania
+Defacqz
+Bailli;Baljuw
+Vleurgat
+Abbaye;Abdij
+Legrand
+Cambre-Étoile;Ter Kameren-Ster
+Buyl>ULB
+<Jeanne;Johanna
+ULB
+Solbosch;Solbos
+Marie-José
+Brésil;Brasilie
+Boondael Gare;Boondaal Station
+Hippodrome de Boitsfort;Renbaan van Bosvoorde
+Boitsfort Gare;Bosvoorde Station
+Delleur
+Wiener
+Fauconnerie;Valkerij
+Tenreuken
+Parc Sény;Seny-Park
+Herrmann-Debroux
+Auderghem-Shopping;Oudergem-Shopping
+Rond-Point du Souverain;Vorstrondpunt
+Empain
+Musée du Tram;Trammuseum
+Parc des Sources;Bronnenpark
+Voot
+Woluwe Shopping
+Roodebeek
+# Tram
+:9:#C44F97
+Roi Baudouin;Koning Boudewijn
+Stade;Stadion
+Palfijn
+De Heyn
+Arbre Ballon;Dikke Beuk
+UZ-Pédiatrie;UZ-Pediatrie
+UZ Brussel
+Ancienne Barrière;Oude Afspanning
+Exposition;Tentoonstelling
+Square du Centenaire;Eeuwfeestsquare
+Bruxellois;Brusselaars
+Miroir;Spiegel
+Broustin
+Simonis
+Besme
+Bossaert-Basilique;Bossaert-Basiliek
+Collège Sacré-Cœur;Heilig Hartcollege
+Goffin
+Valida
+Schweitzer
+Vereman
+Azur;Azuur
+Hunderenveld
+Grand-Bigard;Groot-Bijgaarden
+# Tram
+:10:#8F4199
+Hôpital Militaire;Militaar Hospitaal
+Mercator
+Simone Veil
+Marguerite Yourcenar
+Nelson Mandela
+Chemin Vert;Groenweg
+Peter Benoit
+Zavelput
+Ancre;Anker
+Heembeek
+Docks Bruxsel
+Princesse Élisabeth;Prinses Elisabeth
+Verboekhoven
+Pavillon;Paviljoen
+Gallait
+Liedts
+Thomas
+Gare du Nord;Noordstation
+Rogier
+De Brouckère
+Bourse;Beurs
+Anneessens
+Lemonnier
+Gare du Midi;Zuidstation
+Porte de Hal;Hallepoort
+Parvis de Saint-Gilles;Sint-Gillesvoorplein
+Horta
+Albert
+Vanderkindere
+Churchill
+# Tram
+:18:#91BEE7
+Albert
+Jupiter
+Altitude Cent;Hoogte Honderd
+Coghen
+Roosendael
+Bens
+Xavier de Bue
+Globe
+Rittweger
+Jeanne Herreman
+Uccle Calevoet;Ukkel Kalevoet
+Engeland
+Bourdon
+Crématorium;Crematorium
+Van Haelen
+# Tram
+:19:#E43C2E
+De Wand
+Saint-Lambert;Sint-Lambertus
+Stuyvenbergh
+Ernest Salu
+Guillaume de Greef
+Cimetière de Jette;Kerkhof van Jette
+Gare de Jette;Station Jette
+Lenoir
+Place Reine Astrid;Koningin Astridplein
+Miroir;Spiegel
+Broustin
+Simonis
+# Tram
+:25:#A12944
+Boondael Gare;Boondaal Station
+Brésil;Brazilie
+Marie-José
+Solbosch;Solbos
+ULB
+Jeanne;Johanna
+>Buyl>ULB
+Roffiaen
+Etterbeek Gare;Etterbeek Station
+VUB
+Arsenal;Arsenaal
+Pétillon
+Boileau
+Montgomery
+Georges Henri
+Diamant
+Meiser
+Patrie;Vaderland
+Bienfaiteurs;Weldoeners
+Coteaux;Wijnheuvelen
+Robiano
+Lefrancq
+Liedts
+Thomas
+Gare du Nord;Noordstation
+Rogier
+# Tram
+:35:#336195
+Esplanade
+De Wand
+Araucaria
+Buissonnets;Braambosjes
+Heembeek
+Docks Bruxsel
+# Tram
+:39:#E43C2E
+Montgomery
+GJ Martin
+Léopold II;Leopold II
+Jules César;Julius Caesar
+Chien Vert;Groene Hond
+Musée du Tram;Trammuseum
+De Villalobar
+Madoux
+Rue au Bois;Bosstraat
+Aviation;Luchtvaart
+Escrime;Schermkunst
+Stockel;Stokkel
+Amitié;Vriendschap
+Églantiers;Wilderozen
+De Burbure
+Bel-Air;Schone Lucht
+Louis Marcelis
+Ruisseau;Beek
+Ter Meeren
+Ban-Eik
+# Tram
+:51:#F3C300
+Stade
+Stiénon
+Polyclinique Brugmann;Poliklink Brugmann
+Hôpital Brugmann;Brugmann-Ziekenhuis
+Guillaume de Greef
+Cimetière de Jette;Kerkhof van Jette
+Démineurs;Ontmijners
+Woeste
+Odon Warland
+Belgica
+Vanderstichelen
+Jubilé;Jubelfeest
+Ribaucourt
+Sainctelette
+Yser;IJzer
+Marguerite Duras
+Porte de Flandre;Vlaamsepoort
+Porte de Ninove;Ninoofsepoort
+Arts et Métiers
+Porte d'Anderlecht;Anderlechtsepoort
+Lemonnier
+Gare du Midi;Zuidstation
+# Tram
+:55:#F3C300
+Da Vinci
+Bordet Station
+Van Cutsem
+Fonson
+Paix;Vrede
+Tilleul;Linde
+Helmet
+Foyer Schaarbeekois;Schaarbeekse Haard
+Waelhem
+Verboekhoven
+Pavillon;Paviljoen
+Gallait
+Liedts
+Thomas
+Gare du Nord;Noordstation
+Rogier
+# Tram
+:62:#F29DC3
+Heysel;Heizel
+Saint-Lambert;Sint-Lambertus
+Stuyvenbergh
+Ernest Salu
+Guillaume de Greef
+Cimetière de Jette;Kerkhof van Jette
+Foyer Jettois;Jetse Haard
+Jacobs Fontaine
+Bockstael
+Moorslede
+Princesse Clémentine;Prinses Clementina
+Marie-Christine;Maria-Christina
+Jules de Trooz
+Masui
+Liedts
+Lefrancq
+Robiano
+Coteaux;Wijnheuvelen
+Bienfaiteurs;Weldoeners
+Patrie;Vaderland
+Meiser
+Léopold III;Leopold III
+Pentathlon
+Evere Shopping
+Lekaerts
+Da Vinci
+Fusée;Raket
+Bourget
+Eurocontrol
+# Tram
+:81:#4C8B33
+Montgomery
+Merode
+Place Saint-Pierre;Sint-Pietersplein
+Acacias;Acacia
+La Chasse;De Jacht
+Église Saint-Antoine;Sint-Antoonkerk
+Germoir;Mouterij
+Levure;Gist
+Flagey
+Dautzenberg
+Bailli;Baljuw
+Trinité;Drievuldigheid
+Janson
+Moris
+Lombardie;Lombardije
+Barrière;Bareel
+Guillaume Tell;Willem Tell
+Bethléem;Bethlehem
+Avenue du Roi;Koningslaan
+Suède;Zweden
+Gare du Midi;Zuidstation
+Bara
+Conseil;Raad
+Albert I
+Cureghem;Kuregem
+Douvres;Dover
+Résistance;Verzet
+Saint-Guidon;Sint-Guido
+Meir
+Ysaye
+Van Beethoven
+Frans Hals
+Parc Vivès;Vivès-Park
+Marius Renard
+# Tram
+:82:#91BEE7
+Gare de Berchem
+Berchem-Shopping
+Alcyons
+Schweitzer
+Genot
+Van Zande
+Cimetière de Molenbeek;Begraafplaats van Molenbeek
+Karreveld
+Mennekens
+Joseph Baeck
+Gare de l'Ouest;Weststation
+Quatre-Vents;Vier Winden
+Duchesse de Brabant;Hertogin van Brabant
+Triangle;Driehoek
+Arts et Métiers
+Porte d'Anderlecht;Anderlechtsepoort
+Lemonnier
+Gare du Midi;Zuidstation
+Suède;Zweden
+Avenue du Roi;Koningslaan
+Imprimerie;Drukkerij
+Orban
+Wiels
+Union
+Châtaignes;Kastanjes
+Zaman-Forest National;Zaman-Vorst Nationaal
+Monaco
+Forest Centre;Vorst Centrum
+# Tram
+:92:#E43C2E
+Schaerbeek Gare;Schaerbeek Station
+Princesse Élisabeth;Prinses Elisabeth
+Verboekhoven
+Eenens
+Pogge
+Église Saint-Servais;Sint-Servaaskerk
+Robiano
+Sainte-Marie;Sint-Maria
+Gillon
+Botanique;Kruidtuin
+Congrès;Congres
+Parc;Park
+Palais;Paleizen
+Royale;Koning
+Petit Sablon;Kleine Zavel
+Poelaert
+Louise;Louiza
+Stéphanie;Stefania
+Faider
+Janson
+Ma Campagne
+Darwin
+Molière
+Vanderkindere
+Messidor
+Boetendael
+Héros;Helden
+Marlow
+Wolvendael
+Dieweg
+Thévenet
+Lancaster
+Gare de Saint-Job;Station Sint-Job
+Place Saint-Job;Sint-Jobplein
+Alphonse XIII
+Fort-Jaco
+# Tram
+:93:#ED7807
+Stade
+Stiénon
+Polyclinique Brugmann;Polikliniek Brugmann
+Hôpital Brugmann;Brugmann-Ziekenhuis
+Guillaume de Greef
+Cimetière de Jette;Kerkhof van Jette
+Foyer Jettois;Jetse Haard
+Jacobs Fontaine
+Bockstael
+Moorslede
+Princesse Clémentine;Prinses Clementina
+Marie-Christine;Maria-Christina
+Jules de Trooz
+Masui
+Liedts
+Lefrancq
+Sainte-Marie;Sint-Maria
+Gillon
+Botanique;Kruidtuin
+Congrès;Congres
+Parc;Park
+Palais;Paleizen
+Royale;Koning
+Petit Sablon;Kleine Zavel
+Poelaert
+Louise;Louiza
+Stéphanie;Stefania
+Defacqz
+Bailli;Baljuw
+Vleurgat
+Abbaye;Abdij
+Legrand
+# Tram
+:97:#A12944
+Louise;Louiza
+Stéphanie;Stefania
+Faider
+Janson
+Moris
+Lombardie;Lombardije
+Barrière;Bareel
+Combaz
+Rochefort
+Berthelot
+Wiels

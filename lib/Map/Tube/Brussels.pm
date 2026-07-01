@@ -3,7 +3,7 @@
 #
 # Author: Gisbert W. Selke, TapirSoft Selke & Selke GbR.
 #
-# Copyright (C) 2025 Gisbert W. Selke. All rights reserved.
+# Copyright (C) 2025--2026 Gisbert W. Selke. All rights reserved.
 # This package is free software; you can redistribute it and/or
 # modify it under the same terms as Perl itself.
 #
@@ -16,7 +16,7 @@ use version 0.77 ( );
 use strict;
 use warnings;
 
-our $VERSION = version->declare('v0.2.2');
+our $VERSION = version->declare('v0.2.3');
 
 =encoding utf8
 
@@ -32,9 +32,9 @@ use namespace::clean;
 
 my %nametypes = map { $_ => 1 } qw(alt); # The permissible alternative nametypes. In our case, just 'alt'
 
-has xml 	 => ( is  => 'ro', lazy => 1, default => sub { return dist_file('Map-Tube-Brussels', 'brussels-map.xml') } );
+has xml      => ( is  => 'ro', lazy => 1, default => sub { return dist_file('Map-Tube-Brussels', 'brussels-map.xml') } );
 has nametype => ( is  => 'ro', default => '',
-				  isa => sub { die __PACKAGE__ . ": ERROR: Invalid nametype for constructor: '$_[0]'" unless ( ( $_[0] eq '') || exists($nametypes{ $_[0] } ) ) },
+                  isa => sub { die __PACKAGE__ . ": ERROR: Invalid nametype for constructor: '$_[0]'" unless ( ( $_[0] eq '') || exists($nametypes{ $_[0] } ) ) },
                 );
 
 with 'Map::Tube';
@@ -48,11 +48,11 @@ sub _relocate_alternatives {
   my( $branch, $suffix ) = @_;
   for my $key( keys %{ $branch } ) {
     if ( ref( $branch->{$key} ) eq 'HASH' ) {
-	  $branch->{$key} = _relocate_alternatives( $branch->{$key}, $suffix );
+      $branch->{$key} = _relocate_alternatives( $branch->{$key}, $suffix );
     } elsif ( ( ref( $branch->{$key} ) eq '' ) && ( $key eq ( 'name' . $suffix ) ) ) {
       $branch->{'name'} = $branch->{ 'name' . $suffix };
     } elsif ( ref( $branch->{$key} ) eq 'ARRAY' ) {
-	  $branch->{$key} = [ map { _relocate_alternatives( $_, $suffix ) } @{ $branch->{$key} } ];
+      $branch->{$key} = [ map { _relocate_alternatives( $_, $suffix ) } @{ $branch->{$key} } ];
     }
   }
   return $branch;
@@ -62,29 +62,29 @@ sub _remove_alternatives {
   my($branch) = @_;
   for my $key( keys %{ $branch } ) {
     if ( ref( $branch->{$key} ) eq 'HASH' ) {
-	  $branch->{$key} = _remove_alternatives( $branch->{$key} );
-	} elsif ( ( ref( $branch->{$key} ) eq '' ) && ( $key eq 'name' ) ) {
-	  for my $suffix ( keys(%nametypes) ) {
-		delete $branch->{ $key . '_' . $suffix };
-	  }
+      $branch->{$key} = _remove_alternatives( $branch->{$key} );
+    } elsif ( ( ref( $branch->{$key} ) eq '' ) && ( $key eq 'name' ) ) {
+      for my $suffix ( keys(%nametypes) ) {
+        delete $branch->{ $key . '_' . $suffix };
+      }
     } elsif ( ref( $branch->{$key} ) eq 'ARRAY' ) {
-	  $branch->{$key} = [ map { _remove_alternatives($_) } @{ $branch->{$key} } ];
-	}
+      $branch->{$key} = [ map { _remove_alternatives($_) } @{ $branch->{$key} } ];
+  }
   }
   return $branch;
 }
 
 =head1 SYNOPSIS
 
-	use Map::Tube::Brussels;
+  use Map::Tube::Brussels;
 
-	my $tube_nl  = Map::Tube::Brussels->new( nametype => 'alt' );
-	my $route_nl = $tube_nl->get_shortest_route('Delacroix', 'Zuidstation')->preferred( );
-	print "Route: $route_nl\n";
+  my $tube_nl  = Map::Tube::Brussels->new( nametype => 'alt' );
+  my $route_nl = $tube_nl->get_shortest_route('Delacroix', 'Zuidstation')->preferred( );
+  print "Route: $route_nl\n";
 
-	my $tube_fr  = Map::Tube::Brussels->new( );
-	my $route_fr = $tube_fr->get_shortest_route('Delacroix', 'Gare du Midi')->preferred( );
-	print "Route: $route_fr\n";
+  my $tube_fr  = Map::Tube::Brussels->new( );
+  my $route_fr = $tube_fr->get_shortest_route('Delacroix', 'Gare du Midi')->preferred( );
+  print "Route: $route_fr\n";
 
 =head1 DESCRIPTION
 
@@ -96,21 +96,19 @@ L<Map::Tube>.
 
 =head2 CONSTRUCTOR
 
-	use Map::Tube::Brussels;
-	my $tube_fr = Map::Tube::Brussels->new( );
-	my $tube_nl = Map::Tube::Brussels->new( nametype => 'alt' );
+  use Map::Tube::Brussels;
+  my $tube_fr = Map::Tube::Brussels->new( );
+  my $tube_nl = Map::Tube::Brussels->new( nametype => 'alt' );
 
 This will read the tube information from the shared file
 F<brussels-map.xml>, which is part of the distribution.  Without
-argument, French-language place names will be used.  With the value
-C<'alt>' for C<nametype>, Dutch-language place names will be used.
+argument, French (Wallonian) language place names will be used.  With the value
+C<'alt>' for C<nametype>, Dutch (Flemish) language place names will be used.
 Other values will throw an error.
-
 
 =head2 nametype( )
 
 This yields the nametype that was specified with the constructor call, or '' if none.
-
 
 =head2 xml( )
 
@@ -123,7 +121,7 @@ construction.
 The data format for Map::Tube instances is described in the
 documentation for L<Map::Tube>.  The Brussels map, however, comes either
 with station and line names in the French language (spoken in Wallonia)
-or in the Dutch language (spoken in Flanders).	All line and station
+or in the Dutch language (spoken in Flanders).  All line and station
 tags have the French name in the C<name> attribute.  For tags where two
 names differ there is an additional C<name_alt> attribute having the
 Dutch name.  When reading the map data and no C<nametype> is given, all
@@ -139,9 +137,7 @@ and, again, the C<name_alt> attributes themselves are removed.
 If something goes wrong, maybe because the map information file was corrupted,
 the constructor will die.
 
-Some sources have a slightly different view on which stations exist on which lines.
-While the differences are few, they should be resolved by direct evidence. Hints are
-welcome.
+The handling of alternate names should probably be extracted into a Role of its own.
 
 =head1 BUGS
 
@@ -149,6 +145,20 @@ Please report any bugs or feature requests through the web interface at
 L<https://github.com/gwselke/Map-Tube-Brussels/issues>. I will be
 notified and then you'll automatically be notified of progress on your
 bug when (and if) I make changes.
+
+=head1 CONTRIBUTING
+
+The Perl code as such is fairly trivial (which does not imply free of bugs), so there
+is probably little opportunity to contribute interesting things. However, the tube lines
+and stations will probably evolve. I would be grateful to be informed about any such changes
+(or, indeed, of errors of mine). The best way to contribute is to create an issue and to
+list any updated line and station information in plain UTF-8 text, or to attach this
+information in a plain text file. Do not change the XML file, since this is mechanically
+generated from a different, internal file format.
+
+Some sources have a slightly different view on which stations exist on which lines.
+While the differences are few, they should be resolved by direct evidence. Hints are
+welcome.
 
 =head1 AUTHOR
 
