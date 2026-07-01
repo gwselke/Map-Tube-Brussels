@@ -5,3 +5,13 @@ stations in Brussels. Station names are by default in French but can be
 switched to Dutch (Flemish).
 
 All interesting methods are provided by the role Map::Tube.
+
+To build this module, use the classical steps:
+
+* perl Makefile.PL
+* make
+* make test
+* make install
+
+(If you are using Srawberry Perl under Windows, you may want to replace "make"
+with "gmake".)

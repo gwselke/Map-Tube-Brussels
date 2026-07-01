@@ -174,7 +174,7 @@ the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-L<Map::Tube>, L<Map::Tube::GraphViz>.
+L<Map::Tube>, L<Map::Tube::GraphViz>, L<Map::Tube::CLI>.
 
 =cut
 
