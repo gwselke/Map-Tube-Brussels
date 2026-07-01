@@ -1,4 +1,3 @@
-
 # Avoid version control files.
 \bRCS\b
 \bCVS\b
@@ -64,4 +63,4 @@
 ^\.travis\.yml$
 ^Map-Tube-Brussels-.*.tar.gz$
 ^Map-Tube-Brussels-.*.tar.gz.sigstore.json$
-extra/*
+extras/*
